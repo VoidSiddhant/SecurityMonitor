@@ -130,7 +130,7 @@ For ongoing protection in a dangerous network environment:
 ### Execution Policy Error
 If you get an execution policy error:
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 ```
 
 ### Permission Errors
